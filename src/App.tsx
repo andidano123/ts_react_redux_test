@@ -73,7 +73,7 @@ function App() {
   const urltest = generateUrl('http://testurl.bitfinx.com/', {width:360, height:360, locale:'en', toolbar_bg:'', interval:'3h', pair:'BTC_USD'});
   return (
     <>
-
+      <div >React/Redux </div>
       <div style={{textAlign:"center"}}>URLTEST: {urltest}</div>
       <LoginInput addNote={onLogIn} />      
       <LoadingScreen />    
